@@ -1,0 +1,43 @@
+#qouts_container{
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:10rem auto;
+    width: 50vw;
+    background-color: black;
+}
+.container * {
+    margin: 2rem auto;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+}
+
+.container button{
+    cursor: pointer;
+    inline-size: 20rem;
+    font-size: 20px;
+    box-shadow: 0 0 45px #fff;
+    background-color: rgb(189, 135, 239);
+
+    border:  rgb(189, 135, 239) ;
+}
+.container button:hover{
+    background-color: rgb(173, 142, 202);
+    color: black;
+}
+.container .shower{
+    inline-size: 30rem;
+    font-size: 20px;
+    box-shadow: 0 0 45px #fff;
+    font-weight: bold;
+    background-color: rgb(189, 135, 239);
+
+
+}
+
